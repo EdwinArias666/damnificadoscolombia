@@ -13,7 +13,7 @@ const DATOS = {
       id: "valle-del-cauca",
       nombre: "Valle del Cauca",
       nivelAfectacion: "critico",
-      ciudadesPrincipales: ["Cali", "Buenaventura", "Tuluá", "Buga", "Jamundí", "Candelaria", "Florida", "Pradera", "Yumbo", "Cartago", "Roldanillo", "Sevilla", "Zarzal", "La Unión", "El Cerrito", "Ginebra", "Guacarí", "Barragán de San Lorenzo", "Ansermanuevo", "Argelia", "Bolívar", "Caicedonia", "Calima", "Darién", "Restrepo", "Torro", "Trujillo", "Vergara", "Versalles", "Zarzal"],
+      ciudadesPrincipales: ["Cali", "Buenaventura", "Tuluá", "Buga", "Jamundí", "Candelaria", "Florida", "Pradera", "Yumbo", "Cartago", "Roldanillo", "Sevilla", "Zarzal", "La Unión", "El Cerrito", "Ginebra", "Guacarí", "Ansermanuevo", "Argelia", "Bolívar", "Caicedonia", "Calima", "Darién", "El Águila", "El Cairo", "El Dovio", "Génova", "Guadalajara de Buga", "La Victoria", "Obando", "Restrepo", "Riofrío", "Toro", "Trujillo", "Versalles", "Vergara", "Yotoco", "Yumbo"],
       puntosAtencion: [
         { nombre: "PMU Cali", direccion: "Centro de convenciones Valle del Cauca", telefono: "(602) 321-0000" },
         { nombre: "Alcaldía de Cali", direccion: "Avenida 6N # 8-43", telefono: "(602) 321-0000" }
@@ -29,7 +29,7 @@ const DATOS = {
       id: "choco",
       nombre: "Chocó",
       nivelAfectacion: "critico",
-      ciudadesPrincipales: ["Quibdó", "Istmina", "Tadó", "Condoto", "Certegui", "El Cantón del San Pablo", "Medio Atrato", "Nuquí", "Río Iró", "Río Quito", "Bojayá", "Bagadó", "Lloró", "Murindó", "Vigía del Fuerte", "Atrato", "Unión Panamericana", "Riosucio", "Ayalá", "Bajo Baudó", "Bojaya", "Cértegui", "Cristales", "Cucurrupí", "El Litoral del San Juan", "Iguarando", "Judío Divino", "La Toma", "Mindí", "Novedad del Atrato", "Nuquí", "Paimadó", "Périva", "Puerto Meluk", "Quebrada Cana", "Río de Oro", "San José del Palmar", "Sipí", "Togorí", "Tumaco", "Vijagual"],
+      ciudadesPrincipales: ["Quibdó", "Istmina", "Tadó", "Condoto", "Certegui", "El Cantón del San Pablo", "Medio Atrato", "Nuquí", "Río Iró", "Río Quito", "Bojayá", "Bagadó", "Lloró", "Murindó", "Unión Panamericana", "Bajo Baudó", "Bojaya", "Cértegui", "El Litoral del San Juan", "La Toma", "Mindí", "Novedad del Atrato", "Paimadó", "Périva", "Puerto Meluk", "San José del Palmar", "Sipí", "Togorí", "Vijagual"],
       puntosAtencion: [
         { nombre: "PMU Quibdó", direccion: "Coliseo de Quibdó", telefono: "(604) 671-0000" },
         { nombre: "Gobernación del Chocó", direccion: "Calle 1 # 3-30, Quibdó", telefono: "(604) 671-0000" }
@@ -45,7 +45,7 @@ const DATOS = {
       id: "caldas",
       nombre: "Caldas",
       nivelAfectacion: "alto",
-      ciudadesPrincipales: ["Manizales", "Villamaría", "Chinchiná", "La Dorada", "Riosucio", "Anserma", "Belén de Umbría", "Marmato", "Neira", "Pácora", "Palestina", "Risaralda", "Salamina", "Supía", "Aguachica", "Badillo", "Carniceros", "Guacahoya", "Hato", "La Victoria", "Marquetalia", "Montebello", "Pueblo Rico", "Quinchía", "Santa Rosa de Cabal", "Versalles", "Viterbo"],
+      ciudadesPrincipales: ["Manizales", "Villamaría", "Chinchiná", "La Dorada", "Riosucio", "Anserma", "Marmato", "Neira", "Pácora", "Palestina", "Risaralda", "Salamina", "Supía", "Marquetalia", "Montebello", "La Victoria"],
       puntosAtencion: [
         { nombre: "PMU Manizales", direccion: "Plaza de toros, Manizales", telefono: "(606) 886-0000" },
         { nombre: "Gobernación de Caldas", direccion: "Carrera 7 # 15-88, Manizales", telefono: "(606) 886-0000" }
@@ -61,7 +61,7 @@ const DATOS = {
       id: "risaralda",
       nombre: "Risaralda",
       nivelAfectacion: "alto",
-      ciudadesPrincipales: ["Pereira", "Dosquebradas", "Santa Rosa de Cabal", "La Virginia", "La Celia", "Marsella", "Belén de Umbría", "Guática", "Mistrató", "Pueblo Rico", "Quinchía", "Apía", "Balboa", "Santuario", "Vergara", "Viterbo", "Guayabal", "La Florida", "Marsella", "Marulanda", "Montenegro", "Neira", "Palestina", "Risaralda", "Salamina", "Supía"],
+      ciudadesPrincipales: ["Pereira", "Dosquebradas", "Santa Rosa de Cabal", "La Virginia", "La Celia", "Marsella", "Belén de Umbría", "Guática", "Mistrató", "Pueblo Rico", "Quinchía", "Apía", "Balboa", "Santuario", "La Florida"],
       puntosAtencion: [
         { nombre: "PMU Pereira", direccion: "Coliseo Mayor de Pereira", telefono: "(606) 335-0000" },
         { nombre: "Alcaldía de Pereira", direccion: "Carrera 7 # 18-30", telefono: "(606) 335-0000" }
@@ -77,7 +77,7 @@ const DATOS = {
       id: "quindio",
       nombre: "Quindío",
       nivelAfectacion: "alto",
-      ciudadesPrincipales: ["Armenia", "Calarcá", "La Tebaida", "Montenegro", "Quimbaya", "Circasia", "Córdoba", "Filandia", "Salento", "Buenavista", "Pijao", "Buga", "Génova", "La María", "Pueblo Quillado", "Rovira", "Tulúa", "Victoria", "Villahermosa", "Zarzal"],
+      ciudadesPrincipales: ["Armenia", "Calarcá", "La Tebaida", "Montenegro", "Quimbaya", "Circasia", "Córdoba", "Filandia", "Salento", "Buenavista", "Pijao", "Génova"],
       puntosAtencion: [
         { nombre: "PMU Armenia", direccion: "Coliseo de Armenia", telefono: "(606) 749-0000" },
         { nombre: "Gobernación del Quindío", direccion: "Carrera 14 # 12N-44, Armenia", telefono: "(606) 749-0000" }
@@ -93,7 +93,7 @@ const DATOS = {
       id: "cauca",
       nombre: "Cauca",
       nivelAfectacion: "alto",
-      ciudadesPrincipales: ["Popayán", "Santander de Quilichao", "Puerto Tejada", "Guachené", "Buenos Aires", "Caloto", "Corinto", "Guapi", "Inzá", "Jambaló", "La Sierra", "Mercaderes", "Moralito", "Padilla", "Páez", "Patía", "Piamonte", "Polindara", "Rosario", "Santander de Quilichao", "Sucre", "Timbío", "Toribío", "Totoró", "Villa Rica", "Yacuanquer", "Almaguer", "Argelia", "Balboa", "Bolívar", "Buenos Aires", "Cajibío", "Caldono", "Caloto", "Cerete", "Chámeza", "Corinto", "El Águila", "El Cairo", "El Dovio", "Florida", "Ginebra", "Guacarí", "Guadalajara de Buga", "Guapi", "Jamundí", "La Celia", "La Unión", "La Victoria", "Obando", "Pradera", "Restrepo", "Riofrío", "Roldanillo", "San Pedro", "Sevilla", "Toro", "Trujillo", "Tuluá", "Tumaco", "Túquerres", "Versalles", "Villarrica", "Yotoco", "Yumbo", "Zarzal"],
+      ciudadesPrincipales: ["Popayán", "Santander de Quilichao", "Puerto Tejada", "Guachené", "Buenos Aires", "Caloto", "Corinto", "Guapi", "Inzá", "Jambaló", "La Sierra", "Mercaderes", "Padilla", "Páez", "Patía", "Piamonte", "Polindara", "Rosario", "Sucre", "Timbío", "Toribío", "Totoró", "Villa Rica", "Yacuanquer", "Almaguer", "Argelia", "Balboa", "Bolívar", "Cajibío", "Caldono"],
       puntosAtencion: [
         { nombre: "PMU Popayán", direccion: "Centro de eventos Popayán", telefono: "(602) 824-0000" },
         { nombre: "Gobernación del Cauca", direccion: "Calle 5 # 3-60, Popayán", telefono: "(602) 824-0000" }
@@ -109,7 +109,7 @@ const DATOS = {
       id: "antioquia",
       nombre: "Antioquia",
       nivelAfectacion: "moderado",
-      ciudadesPrincipales: ["Medellín", "Bello", "Itagüí", "Envigado", "Apartadó", "Turbo", "Rionegro", "Cisneros", "Cocorná", "Concepción", "Fredonia", "La Ceja", "La Unión", "Marinilla", "Montebello", "San Carlos", "San Francisco", "San Roque", "Santa Bárbara", "Segovia", "Sonsón", "Tarazá", "Valdivia", "Yarumal", "Abriaquí", "Alejandría", "Amalfi", "Andes", "Angelópolis", "Angostura", "Anorí", "Anza", "Arboletes", "Barbosa", "Bello", "Belmira", "Betania", "Betulia", "Briceño", "Buriticá", "Caicedo", "Cáceres", "Cañasgordas", "Caracolí", "Carmen de Viboral", "Carolina del Príncipe", "Caucasia", "Chigorodó", "Cisneros", "Cocorná", "Concepción", "Concordia", "Copacabana", "Dabeiba", "Donmatías", "Ebéjico", "El Bagre", "El Peñol", "El Retiro", "El Santuario", "Entrerríos", "Envigado", "Fredonia", "Frontino", "Giraldo", "Girardota", "Gómez Plata", "Guadalupe", "Guarne", "Guatapé", "Heliconia", "Hispania", "Itagüí", "Ituango", "Jardín", "Jericó", "La Estrella", "La Pintada", "La Unión", "Liborina", "Maceo", "Marinilla", "Montebello", "Murindó", "Mutatá", "Necoclí", "Nechí", "Nariño", "Olaya", "Peque", "Pueblorrico", "Puerto Berrío", "Puerto Nare", "Puerto Triunfo", "Remedios", "Retiro", "Rionegro", "Sabanalarga", "Sabaneta", "Salgar", "San Andrés de Cuerquia", "San Carlos", "San Francisco", "San Jerónimo", "San José de la Montaña", "San Pedro de los Milagros", "San Roque", "Santa Bárbara", "Santa Fe de Antioquia", "Santa Rosa de Osos", "Santo Domingo", "Segovia", "Sonsón", "Sopetrán", "Támesis", "Tarazá", "Tarso", "Titiribí", "Toledo", "Turbo", "Uramita", "Urrao", "Valdivia", "Valparaíso", "Vegachí", "Venecia", "Vigía del Fuerte", "Yalí", "Yarumal", "Yolombó", "Zona Bananera"],
+      ciudadesPrincipales: ["Medellín", "Bello", "Itagüí", "Envigado", "Apartadó", "Turbo", "Rionegro", "Cisneros", "Cocorná", "Concepción", "Fredonia", "La Ceja", "La Unión", "Marinilla", "Montebello", "San Carlos", "San Francisco", "San Roque", "Santa Bárbara", "Segovia", "Sonsón", "Valdivia", "Yarumal", "Abriaquí", "Alejandría", "Amalfi", "Andes", "Angelópolis", "Angostura", "Anorí", "Anza", "Arboletes", "Barbosa", "Belmira", "Betania", "Betulia", "Briceño", "Buriticá", "Caicedo", "Cáceres", "Cañasgordas", "Caracolí", "Carmen de Viboral", "Carolina del Príncipe", "Chigorodó", "Concordia", "Copacabana", "Dabeiba", "Donmatías", "Ebéjico", "El Bagre", "El Peñol", "El Retiro", "El Santuario", "Entrerríos", "Frontino", "Giraldo", "Girardota", "Gómez Plata", "Guadalupe", "Guarne", "Guatapé", "Heliconia", "Hispania", "Ituango", "Jardín", "Jericó", "La Estrella", "La Pintada", "Liborina", "Maceo", "Necoclí", "Nechí", "Nariño", "Olaya", "Peque", "Pueblorrico", "Puerto Berrío", "Puerto Nare", "Puerto Triunfo", "Remedios", "Retiro", "Sabaneta", "Salgar", "San Andrés de Cuerquia", "San Jerónimo", "San José de la Montaña", "San Pedro de los Milagros", "Santa Fe de Antioquia", "Santa Rosa de Osos", "Santo Domingo", "Sopetrán", "Támesis", "Tarso", "Titiribí", "Toledo", "Uramita", "Urrao", "Valparaíso", "Vegachí", "Venecia", "Yalí", "Yolombó"],
       puntosAtencion: [
         { nombre: "PMU Medellín", direccion: "Plaza de Toros La Macarena", telefono: "(604) 381-0000" },
         { nombre: "Gobernación de Antioquia", direccion: "Carrera 42 # 52-120, Medellín", telefono: "(604) 381-0000" }
@@ -125,7 +125,7 @@ const DATOS = {
       id: "cundinamarca",
       nombre: "Cundinamarca",
       nivelAfectacion: "moderado",
-      ciudadesPrincipales: ["Bogotá", "Soacha", "Fusagasugá", "Girardot", "Zipaquirá", "Facatativá", "Villeta", "Tocaima", "Agua de Dios", "Albán", "Bituima", "Bojacá", "Cachipay", "Cajicá", "Caparrapí", "Cáqueza", "Chaguaní", "Chía", "Chipaque", "Choachí", "Chocontá", "Cogua", "Cota", "Cucunubá", "El Colegio", "Fusagasugá", "Gachalá", "Gachancipá", "Gachetá", "Gama", "Girardot", "Granada", "Guachetá", "Guaduas", "Guasca", "Guatavita", "Guayabal de Siquima", "Guayabetal", "Gutiérrez", "Junín", "La Calera", "La Mesa", "La Palma", "La Vega", "Lenguazaque", "Madrid", "Mesitas del Colegio", "Mosquera", "Nemocón", "Pacho", "Pandi", "Pasca", "Pulí", "Quebradanegra", "Quipile", "San Antonio del Tequendama", "San Bernardo", "San Cayetano", "San Juan de Rioseco", "Sasaima", "Sesquilé", "Sibaté", "Silvania", "Simijaca", "Sopó", "Subachoque", "Suesca", "Supatá", "Susa", "Sutatausa", "Sutatenza", "Tabio", "Tena", "Tocaima", "Tocancipá", "Ubalá", "Ubaque", "Ubaté", "Une", "Útica", "Vergara", "Vianí", "Villagómez", "Villapinzón", "Villeta", "Viotá", "Yacopí", "Zipacón", "Zipaquirá"],
+      ciudadesPrincipales: ["Bogotá", "Soacha", "Fusagasugá", "Girardot", "Zipaquirá", "Facatativá", "Villeta", "Tocaima", "Agua de Dios", "Albán", "Bituima", "Bojacá", "Cachipay", "Cajicá", "Caparrapí", "Cáqueza", "Chaguaní", "Chía", "Chipaque", "Choachí", "Chocontá", "Cogua", "Cota", "Cucunubá", "El Colegio", "Gachalá", "Gachancipá", "Gachetá", "Gama", "Granada", "Guachetá", "Guaduas", "Guasca", "Guatavita", "Guayabal de Siquima", "Guayabetal", "Gutiérrez", "Junín", "La Calera", "La Mesa", "La Palma", "La Vega", "Lenguazaque", "Madrid", "Mesitas del Colegio", "Mosquera", "Nemocón", "Pacho", "Pandi", "Pasca", "Pulí", "Quebradanegra", "Quipile", "San Antonio del Tequendama", "San Bernardo", "San Cayetano", "San Juan de Rioseco", "Sasaima", "Sesquilé", "Sibaté", "Silvania", "Simijaca", "Sopó", "Subachoque", "Suesca", "Supatá", "Susa", "Sutatausa", "Sutatenza", "Tabio", "Tena", "Tocancipá", "Ubalá", "Ubaque", "Ubaté", "Une", "Útica", "Vergara", "Vianí", "Villagómez", "Villapinzón", "Viotá", "Yacopí", "Zipacón"],
       puntosAtencion: [
         { nombre: "PMU Bogotá", direccion: "Coliseo Cubierto El Campín", telefono: "(601) 381-0000" },
         { nombre: "UADR Cundinamarca", direccion: "Carrera 7 # 32-16, Bogotá", telefono: "(601) 381-0000" }
@@ -141,7 +141,7 @@ const DATOS = {
       id: "tolima",
       nombre: "Tolima",
       nivelAfectacion: "moderado",
-      ciudadesPrincipales: ["Ibagué", "Melgar", "Honda", "Girardot", "Espinal", "Melgar", "Planadas", "Prado", "Purificación", "Rioblanco", "Rovira", "Saldaña", "San Antonio", "Suárez", "Valle de San Juan", "Alpujarra", "Alvarado", "Ambalema", "Anzoátegui", "Armero", "Ataco", "Cajamarca", "Carmen de Apicalá", "Casabianca", "Chaparral", "Coello", "Coyaima", "Cunday", "Dolores", "Falan", "Flandes", "Fresno", "Guamo", "Herveo", "Honda", "Icononzo", "Lérida", "Líbano", "Mariquita", "Melgar", "Murillo", "Natagaima", "Ortega", "Palocabildo", "Piedras", "Planadas", "Prado", "Purificación", "Rioblanco", "Rovira", "Saldaña", "San Antonio", "San Luis", "Santa Isabel", "Suárez", "Valle de San Juan", "Venadillo", "Villahermosa", "Villarrica"],
+      ciudadesPrincipales: ["Ibagué", "Melgar", "Honda", "Espinal", "Planadas", "Prado", "Purificación", "Rioblanco", "Rovira", "Saldaña", "San Antonio", "Suárez", "Valle de San Juan", "Alpujarra", "Alvarado", "Ambalema", "Anzoátegui", "Armero", "Ataco", "Cajamarca", "Carmen de Apicalá", "Casabianca", "Chaparral", "Coello", "Coyaima", "Cunday", "Dolores", "Falan", "Flandes", "Fresno", "Guamo", "Herveo", "Icononzo", "Lérida", "Líbano", "Mariquita", "Murillo", "Natagaima", "Ortega", "Palocabildo", "Piedras", "San Luis", "Santa Isabel", "Venadillo", "Villahermosa", "Villarrica"],
       puntosAtencion: [
         { nombre: "PMU Ibagué", direccion: "Coliseo de Ibagué", telefono: "(608) 271-0000" },
         { nombre: "Gobernación del Tolima", direccion: "Carrera 3 # 10-26, Ibagué", telefono: "(608) 271-0000" }
@@ -157,7 +157,7 @@ const DATOS = {
       id: "huila",
       nombre: "Huila",
       nivelAfectacion: "moderado",
-      ciudadesPrincipales: ["Neiva", "Pitalito", "Garzón", "La Plata", "Campoalegre", "Algeciras", "Agrado", "Aipe", "Baraya", "Colombia", "Tello", "Teruel", "Tres Aguadas", "Aceituno", "Altamira", "Baraya", "Buenos Aires", "Caltano", "Carcia", "Hobo", "Isnos", "La Argentina", "La Plata", "Nátaga", "Oporapa", "Palestina", "Paicol", "Saladoblanco", "Santa María", "Suaza", "Tarqui", "Tello", "Tesalia", "Timaná", "Villavieja", "Yaguará"],
+      ciudadesPrincipales: ["Neiva", "Pitalito", "Garzón", "La Plata", "Campoalegre", "Algeciras", "Agrado", "Aipe", "Baraya", "Colombia", "Tello", "Teruel", "Aceituno", "Altamira", "Buenos Aires", "Caltano", "Hobo", "Isnos", "La Argentina", "Nátaga", "Oporapa", "Palestina", "Paicol", "Saladoblanco", "Santa María", "Suaza", "Tarqui", "Tesalia", "Timaná", "Villavieja", "Yaguará"],
       puntosAtencion: [
         { nombre: "PMU Neiva", direccion: "Coliseo de Neiva", telefono: "(608) 871-0000" },
         { nombre: "Gobernación del Huila", direccion: "Carrera 7 # 5-62, Neiva", telefono: "(608) 871-0000" }
@@ -173,7 +173,7 @@ const DATOS = {
       id: "narino",
       nombre: "Nariño",
       nivelAfectacion: "moderado",
-      ciudadesPrincipales: ["Pasto", "Tumaco", "Ipiales", "Túquerres", "Samaniego", "Buesaco", "Córdoba", "Cumbal", "Curtiduría", "El Charco", "El Rosario", "El Tablón", "Funes", "Guachavés", "Guapi", "Iles", "Imués", "Ipiales", "La Cruz", "La Florida", "La Unión", "Leiva", "Linares", "Los Andes", "Magüí", "Mallama", "Mosquera", "Nariño", "Olaya Herrera", "Ospina", "Policarpa", "Potosí", "Providencia", "Puerres", "Pupiales", "Ricaurte", "Roberto Payán", "Samaniego", "San Bernardo", "Sandona", "Santa Bárbara", "Santacruz", "Sapuyes", "Seminario", "Taminango", "Tangua", "Tumaco", "Túquerres", "Yacuanquer", "Yaguarzón", "Yazalde", "Yuruparí"],
+      ciudadesPrincipales: ["Pasto", "Tumaco", "Ipiales", "Túquerres", "Samaniego", "Buesaco", "Córdoba", "Cumbal", "Curtiduría", "El Charco", "El Rosario", "El Tablón", "Funes", "Guachavés", "Iles", "Imués", "La Cruz", "La Unión", "Leiva", "Linares", "Los Andes", "Magüí", "Mallama", "Mosquera", "Nariño", "Olaya Herrera", "Ospina", "Policarpa", "Potosí", "Providencia", "Puerres", "Pupiales", "Ricaurte", "Roberto Payán", "Sandona", "Santa Bárbara", "Santacruz", "Sapuyes", "Taminango", "Tangua", "Valle del Guamuez", "Yacuanquer", "Yuruparí"],
       puntosAtencion: [
         { nombre: "PMU Pasto", direccion: "Coliseo de Pasto", telefono: "(602) 723-0000" },
         { nombre: "Gobernación de Nariño", direccion: "Carrera 23 # 11-54, Pasto", telefono: "(602) 723-0000" }
@@ -189,7 +189,7 @@ const DATOS = {
       id: "norte-de-santander",
       nombre: "Norte de Santander",
       nivelAfectacion: "bajo",
-      ciudadesPrincipales: ["Cúcuta", "Ocaña", "Pamplona", "Villa del Rosario", "Chitagá", "Cáchira", "Cácota", "Chinácota", "Cucutilla", "Durania", "El Carmen", "Gramalote", "Hacarí", "Herrán", "La Esperanza", "Labateca", "Los Patios", "Mutiscua", "Pamplonita", "Puerto Santander", "Ragonvalia", "Salazar de las Palmas", "San Calixto", "Santiago", "Sardinata", "Silos", "Teorama", "Tibú", "Tulúa", "Villa del Rosario"],
+      ciudadesPrincipales: ["Cúcuta", "Ocaña", "Pamplona", "Villa del Rosario", "Chitagá", "Cáchira", "Cácota", "Chinácota", "Cucutilla", "Durania", "El Carmen", "Gramalote", "Hacarí", "Herrán", "La Esperanza", "Labateca", "Los Patios", "Mutiscua", "Pamplonita", "Puerto Santander", "Ragonvalia", "Salazar de las Palmas", "San Calixto", "Santiago", "Sardinata", "Silos", "Teorama", "Tibú"],
       puntosAtencion: [
         { nombre: "PMU Cúcuta", direccion: "Polideportivo de Cúcuta", telefono: "(607) 577-0000" },
         { nombre: "Gobernación del Norte de Santander", direccion: "Carrera 6 # 10-56, Cúcuta", telefono: "(607) 577-0000" }
@@ -205,7 +205,7 @@ const DATOS = {
       id: "santander",
       nombre: "Santander",
       nivelAfectacion: "bajo",
-      ciudadesPrincipales: ["Bucaramanga", "Barrancabermeja", "Floridablanca", "Girón", "Piedecuesta", "Bucaramanga", "San Gil", "Socorro", "Vélez", "Barbosa", "Bolívar", "Bucaramanga", "California", "Capitanejo", "Carcasí", "Cepitá", "Cerrito", "Charalá", "Charta", "Chipatá", "Cimitarra", "Concepción", "Contratación", "Coromoro", "Curití", "El Carmen de Chucurí", "El Guacamayo", "El Peñón", "El Playón", "Enciso", "Florián", "Floridablanca", "Galán", "Gámbita", "Girón", "Guaca", "Guadalupe", "Guapotá", "Guavatá", "Güepsa", "Hato", "Jesús María", "Jordán", "La Belleza", "Landázuri", "Lebrija", "Los Santos", "Macaravita", "Málaga", "Matanza", "Mogotes", "Molagavita", "Ocamonte", "Oibón", "Onzaga", "Palmar", "Palmas del Socorro", "Páramo", "Piedecuesta", "Pinchote", "Puente Nacional", "Puerto Parra", "Puerto Wilches", "Rionegro", "Sabana de Torres", "San Andrés", "San Gil", "San Joaquín", "San José de Miranda", "San Miguel", "Santa Bárbara", "Santa Helena del Opón", "Simacota", "Socorro", "Suaita", "Sucre", "Suratá", "Tona", "Valle de San José", "Vélez", "Vetas", "Villanueva", "Zapatoca"],
+      ciudadesPrincipales: ["Bucaramanga", "Barrancabermeja", "Floridablanca", "Girón", "Piedecuesta", "San Gil", "Socorro", "Vélez", "Barbosa", "Bolívar", "California", "Capitanejo", "Carcasí", "Cepitá", "Cerrito", "Charalá", "Charta", "Chipatá", "Cimitarra", "Concepción", "Contratación", "Coromoro", "Curití", "El Carmen de Chucurí", "El Guacamayo", "El Peñón", "El Playón", "Enciso", "Florián", "Galán", "Gámbita", "Guaca", "Guadalupe", "Guapotá", "Guavatá", "Güepsa", "Hato", "Jesús María", "Jordán", "La Belleza", "Landázuri", "Lebrija", "Los Santos", "Macaravita", "Málaga", "Matanza", "Mogotes", "Molagavita", "Ocamonte", "Oibón", "Onzaga", "Palmar", "Palmas del Socorro", "Páramo", "Pinchote", "Puente Nacional", "Puerto Parra", "Puerto Wilches", "Rionegro", "Sabana de Torres", "San Andrés", "San Joaquín", "San José de Miranda", "San Miguel", "Santa Bárbara", "Santa Helena del Opón", "Simacota", "Suaita", "Sucre", "Suratá", "Tona", "Valle de San José", "Vetas", "Villanueva", "Zapatoca"],
       puntosAtencion: [
         { nombre: "PMU Bucaramanga", direccion: "Coliseo de Bucaramanga", telefono: "(607) 644-0000" },
         { nombre: "Gobernación de Santander", direccion: "Carrera 32 # 33-42, Bucaramanga", telefono: "(607) 644-0000" }
@@ -221,7 +221,7 @@ const DATOS = {
       id: "cesar",
       nombre: "Cesar",
       nivelAfectacion: "bajo",
-      ciudadesPrincipales: ["Valledupar", "Aguachica", "San Alberto", "Chiriguaná", "Bosconia", "Chimichagua", "Curumaní", "El Copey", "El Paso", "Gamarra", "González", "La Gloria", "Manaure Bajo del Cesar", "Pailitas", "Pelaya", "Pueblo Bello", "Río de Oro", "La Paz Robles", "San Alberto", "San Diego", "Tamalameque", "Valledupar", "Becerril", "Astrea", "Bolívar", "California", "Cicuco", "Convenio", "Cotorra", "Chimichagua", "Chiriguaná", "Codazzi", "Colosio", "Convención", "Cupitero", "Curumaní", "Doña Juana", "El Carmen", "El Peñón", "El Playón", "El Retorno", "Galerazamba", "Hatillo de Loba", "Isnor", "La Jagua de Ibirico", "La Paz", "Montecristo", "Morales", "Norosí", "Puerto Concordia", "Regidor", "San Martín", "Samaniego", "Santa Rosa del Sur", "Támara", "Tauramena", "Tinjacá", "Tiquisio", "Tuluá", "Valle del Guamuez", "Vigía del Fuerte", "Villanueva", "Yavaraté", "Yondó", "Zapayán", "Zona Bananera"],
+      ciudadesPrincipales: ["Valledupar", "Aguachica", "San Alberto", "Chiriguaná", "Bosconia", "Chimichagua", "Curumaní", "El Copey", "El Paso", "Gamarra", "González", "La Gloria", "Manaure Bajo del Cesar", "Pailitas", "Pelaya", "Pueblo Bello", "Río de Oro", "La Paz Robles", "San Diego", "Tamalameque", "Becerril", "Astrea", "Codazzi", "Convención", "Curumaní", "La Jagua de Ibirico", "Montecristo", "Morales", "Regidor", "San Martín", "Villanueva", "Zona Bananera"],
       puntosAtencion: [
         { nombre: "PMU Valledupar", direccion: "Polideportivo de Valledupar", telefono: "(605) 568-0000" },
         { nombre: "Gobernación del Cesar", direccion: "Carrera 5 # 12-52, Valledupar", telefono: "(605) 568-0000" }
@@ -237,7 +237,7 @@ const DATOS = {
       id: "meta",
       nombre: "Meta",
       nivelAfectacion: "bajo",
-      ciudadesPrincipales: ["Villavicencio", "Acacías", "Granada", "San Martín", "Puerto López", "San Carlos Guaroa", "San Juan de Arama", "Vista Hermosa", "Castilla La Nueva", "Cubarral", "Cumaral", "El Calvario", "El Castillo", "Fuente de Oro", "Guamal", "Mapiripán", "Mesetas", "La Macarena", "Uribe", "Lejanías", "Puerto Concordia", "Puerto Gaitán", "Puerto Lleras", "Puerto Rico", "Restrepo", "San Carlos Guaroa", "San Juan de Arama", "San Martín", "Villavicencio"],
+      ciudadesPrincipales: ["Villavicencio", "Acacías", "Granada", "San Martín", "Puerto López", "San Carlos Guaroa", "San Juan de Arama", "Vista Hermosa", "Castilla La Nueva", "Cubarral", "Cumaral", "El Calvario", "El Castillo", "Fuente de Oro", "Guamal", "Mapiripán", "Mesetas", "La Macarena", "Uribe", "Lejanías", "Puerto Gaitán", "Puerto Lleras", "Puerto Rico", "Restrepo"],
       puntosAtencion: [
         { nombre: "PMU Villavicencio", direccion: "Coliseo de Villavicencio", telefono: "(608) 661-0000" },
         { nombre: "Gobernación del Meta", direccion: "Carrera 34 # 17-47, Villavicencio", telefono: "(608) 661-0000" }

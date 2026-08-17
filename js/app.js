@@ -67,6 +67,31 @@
         "<span>" + tipo.descripcion + "</span></div>";
       container.appendChild(label);
     });
+
+    var cbDestruida = container.querySelector('input[value="vivienda-destruida"]');
+    var cbDanada = container.querySelector('input[value="vivienda-danada"]');
+    if (cbDestruida && cbDanada) {
+      cbDestruida.addEventListener("change", function() {
+        if (cbDestruida.checked) {
+          cbDanada.checked = false;
+          cbDanada.disabled = true;
+          cbDanada.closest("label").style.opacity = "0.4";
+        } else {
+          cbDanada.disabled = false;
+          cbDanada.closest("label").style.opacity = "";
+        }
+      });
+      cbDanada.addEventListener("change", function() {
+        if (cbDanada.checked) {
+          cbDestruida.checked = false;
+          cbDestruida.disabled = true;
+          cbDestruida.closest("label").style.opacity = "0.4";
+        } else {
+          cbDestruida.disabled = false;
+          cbDestruida.closest("label").style.opacity = "";
+        }
+      });
+    }
   }
 
   // --- Populate ayudas resumen on index ---
