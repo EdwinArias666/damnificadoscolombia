@@ -439,9 +439,24 @@
     }
   }
 
+  // --- Visit counter ---
+  function initVisitCounter() {
+    var el = document.getElementById("visitasCounter");
+    if (!el) return;
+    try {
+      var count = parseInt(localStorage.getItem("visitas") || "0", 10);
+      count += 1;
+      localStorage.setItem("visitas", count.toString());
+      el.textContent = "👁 " + count.toLocaleString("es-CO") + " visitas";
+    } catch (e) {
+      el.textContent = "";
+    }
+  }
+
   // --- Init ---
   function init() {
     initOfflineBar();
+    initVisitCounter();
 
     // Common elements on all pages
     populateDeptos();

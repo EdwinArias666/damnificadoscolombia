@@ -122,6 +122,7 @@ a:hover{text-decoration:underline}
 .footer{background:var(--gris-900);color:var(--gris-300);padding:24px 0;font-size:.8rem}
 .footer-advertencia{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:var(--radio);padding:14px;margin-bottom:16px;color:var(--blanco);line-height:1.5}
 .footer-info{text-align:center;opacity:.7}
+.visitas-counter{font-size:.7rem;opacity:.6;margin-top:6px;letter-spacing:.3px}
 
 .emergencia-grid{display:grid;gap:12px}
 .contacto-card{background:var(--blanco);border:1px solid var(--gris-200);border-radius:var(--radio-lg);padding:16px;display:flex;justify-content:space-between;align-items:center;box-shadow:var(--sombra);flex-wrap:wrap;gap:8px}
