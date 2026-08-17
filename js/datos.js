@@ -303,7 +303,9 @@ const DATOS = {
       duracion: "3 meses, prorrogables según evaluación",
       entidadResponsable: "Ministerio de Vivienda + UNGRD",
       monto: "Según evaluación del gobierno local",
-      comoAcceder: "Inscríbete en el RUD. Una vez aprobado, el subsidio se desembolsa vía transferencia bancaria o consignación."
+      comoAcceder: "Inscríbete en el RUD. Una vez aprobado, el subsidio se desembolsa vía transferencia bancaria o consignación.",
+      telefono: "(601) 242-7000",
+      urlOficial: "https://www.minvivienda.gov.co"
     },
     {
       id: "kit-humanitario",
@@ -321,7 +323,9 @@ const DATOS = {
       duracion: "Entrega inmediata, kit único",
       entidadResponsable: "UNGRD, Cruz Roja, Defensa Civil",
       monto: "En especie (no monetario)",
-      comoAcceder: "Acude al punto de atención más cercano (alcaldía, coliseo o PMU de tu municipio). La entrega es gratuita."
+      comoAcceder: "Acude al punto de atención más cercano (alcaldía, coliseo o PMU de tu municipio). La entrega es gratuita.",
+      telefono: "132",
+      urlOficial: "https://portal.gestiondelriesgo.gov.co"
     },
     {
       id: "traslado-medico",
@@ -340,7 +344,9 @@ const DATOS = {
       duracion: "Según necesidad médica",
       entidadResponsable: "Ministerio de Salud, ESE, Cruz Roja",
       monto: "Totalmente cubierto por el Estado",
-      comoAcceder: "Acude al centro de salud más cercano. Si requieres traslado interhospitalario, el médico de referencia gestionará el transporte."
+      comoAcceder: "Acude al centro de salud más cercano. Si requieres traslado interhospitalario, el médico de referencia gestionará el transporte.",
+      telefono: "(601) 336-2000",
+      urlOficial: "https://www.minsalud.gov.co"
     },
     {
       id: "alivio-servicios",
@@ -359,7 +365,9 @@ const DATOS = {
       duracion: "Según decreto de emergencia (mínimo 3 meses)",
       entidadResponsable: "Ministerio de Minas y Energía, Superintendencia de Servicios Públicos",
       monto: "Congelamiento o reducción según caso",
-      comoAcceder: "Una vez registrado en el RUD, las empresas de servicios públicos aplicarán el beneficio automáticamente. Consulta con tu empresa de servicios."
+      comoAcceder: "Una vez registrado en el RUD, las empresas de servicios públicos aplicarán el beneficio automáticamente. Consulta con tu empresa de servicios.",
+      telefono: "(601) 332-4400",
+      urlOficial: "https://www.minminas.gov.co"
     },
     {
       id: "alivio-tributario",
@@ -380,7 +388,9 @@ const DATOS = {
       duracion: "Según evaluación de la DIAN y secretaría de hacienda local",
       entidadResponsable: "DIAN, Secretaría de Hacienda municipal/departamental",
       monto: "Variable según caso",
-      comoAcceder: "Presenta tu solicitud en la DIAN o secretaría de hacienda de tu municipio con la documentación que respalde los daños."
+      comoAcceder: "Presenta tu solicitud en la DIAN o secretaría de hacienda de tu municipio con la documentación que respalde los daños.",
+      telefono: "(601) 587-7700",
+      urlOficial: "https://www.dian.gov.co"
     },
     {
       id: "reconstruccion",
@@ -400,7 +410,9 @@ const DATOS = {
       duracion: "Proceso por etapas según disponibilidad de recursos",
       entidadResponsable: "Ministerio de Vivienda, UNGRD, Gobernaciones, Alcaldías",
       monto: "Subsidio según tipo de intervención (reparación o reconstrucción)",
-      comoAcceder: "Primero regístrate en el RUD y solicita la evaluación técnica. El gobierno evaluará vivienda por vivienda y te notificará del tipo de intervención."
+      comoAcceder: "Primero regístrate en el RUD y solicita la evaluación técnica. El gobierno evaluará vivienda por vivienda y te notificará del tipo de intervención.",
+      telefono: "(601) 242-7000",
+      urlOficial: "https://www.minvivienda.gov.co"
     }
   ],
 

@@ -290,7 +290,20 @@
         html += '<div class="tarjeta-detalle"><strong>Entidad responsable:</strong> ' + ayuda.entidadResponsable + "</div>";
         html += '<div class="tarjeta-detalle"><strong>Duración:</strong> ' + ayuda.duracion + "</div>";
         html += '<div class="tarjeta-detalle"><strong>Cómo acceder:</strong> ' + ayuda.comoAcceder + "</div>";
-        html += "</div></div>";
+        html += "</div>";
+
+        if (ayuda.telefono || ayuda.urlOficial) {
+          html += '<div class="tarjeta-ayuda-botones">';
+          if (ayuda.telefono) {
+            html += '<a href="tel:' + ayuda.telefono.replace(/\s/g, "") + '" class="btn-ayuda btn-llamar">📞 Llamar: ' + ayuda.telefono + "</a>";
+          }
+          if (ayuda.urlOficial) {
+            html += '<a href="' + ayuda.urlOficial + '" target="_blank" rel="noopener" class="btn-ayuda btn-web">🌐 Sitio oficial ↗</a>';
+          }
+          html += "</div>";
+        }
+
+        html += "</div>";
       });
     }
     html += "</div>";

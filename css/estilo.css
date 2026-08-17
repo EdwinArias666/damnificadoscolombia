@@ -95,6 +95,13 @@ a:hover{text-decoration:underline}
 .tarjeta-detalle strong{color:var(--gris-700)}
 .tarjeta-detalle ul{margin:4px 0 0 16px}
 .tarjeta-detalle li{margin-bottom:3px}
+.tarjeta-ayuda-botones{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid var(--gris-200)}
+.btn-ayuda{display:inline-flex;align-items:center;gap:6px;padding:10px 16px;border-radius:var(--radio);font-size:.85rem;font-weight:600;text-decoration:none;min-height:var(--tap);transition:all .15s;flex:1;min-width:140px;justify-content:center}
+.btn-ayuda:hover{text-decoration:none}
+.btn-llamar{background:var(--verde);color:var(--blanco)}
+.btn-llamar:hover{background:#14532d}
+.btn-web{background:var(--rojo);color:var(--blanco)}
+.btn-web:hover{background:var(--rojo-oscuro)}
 
 .timeline{position:relative;padding-left:32px}
 .timeline::before{content:"";position:absolute;left:11px;top:0;bottom:0;width:2px;background:var(--rojo)}
