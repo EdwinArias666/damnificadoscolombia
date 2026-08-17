@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="theme-color" content="#1a237e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="description" content="Organizaciones humanitarias nacionales e internacionales que brindan ayuda a damnificados del terremoto en Colombia 2026">
+  <meta property="og:title" content="ONGs - Ayuda Humanitaria | Damnificados Colombia 2026">
+  <meta property="og:description" content="Encuentra organizaciones nacionales e internacionales que brindan ayuda gratuita a damnificados del terremoto 2026 en Colombia.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://edwinarias666.github.io/damnificadoscolombia/ongs.html">
+  <title>ONGs - Ayuda Humanitaria | Damnificados Colombia 2026</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>ONGs - Ayuda Humanitaria</h1>
+      <p class="subtitulo">Organizaciones que brindan ayuda gratuita</p>
+    </div>
+    <nav class="nav-principal">
+      <a href="index.html">Inicio</a>
+      <a href="guia.html">Guía RUD</a>
+      <a href="emergencia.html">Emergencia</a>
+      <a href="ongs.html" class="activo">ONGs</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="aviso-grave">
+      <p><strong>⚠ IMPORTANTE:</strong> Las ONGs no cobran por sus servicios. Si alguien te pide dinero en nombre de estas organizaciones, es una estafa. REPÓRTALO.</p>
+    </div>
+
+    <section class="seccion-info">
+      <h2>Nacionales</h2>
+      <div id="ongs-nacionales"></div>
+    </section>
+
+    <section class="seccion-info">
+      <h2>Internacionales</h2>
+      <div id="ongs-internacionales"></div>
+    </section>
+
+    <section class="seccion-info">
+      <h2>Organizaciones de la ONU</h2>
+      <div id="ongs-onu"></div>
+    </section>
+
+    <section class="seccion-info">
+      <h2>¿Cómo ayudar?</h2>
+      <ul class="lista-ayuda">
+        <li><strong>Donaciones:</strong> Enviar dinero directamente a las cuentas oficiales de cada ONG.</li>
+        <li><strong>Voluntariado:</strong> Registrarse en las páginas oficiales de las organizaciones.</li>
+        <li><strong>Difusión:</strong> Compartir información verificada por fuentes oficiales.</li>
+        <li><strong>Acopio:</strong> Llevar alimentos no perecederos y agua a los puntos de acopio habilitados.</li>
+      </ul>
+    </section>
+
+    <section class="seccion-info">
+      <h2>Fuentes verificadas</h2>
+      <div id="fuentes-ongs"></div>
+    </section>
+
+    <div class="aviso-grave">
+      <p><strong>Recuerda:</strong> Solo dona a organizaciones reconocidas y verificadas. Nunca des dinero en efectivo a particulares.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Fuente oficial: <a href="https://portal.gestiondelriesgo.gov.co" target="_blank">UNGRD</a> | <a href="https://www.cruzrojacolombiana.org" target="_blank">Cruz Roja</a> | <a href="https://www.defensacivil.gov.co" target="_blank">Defensa Civil</a></p>
+      <p>Página sin fines de lucro. No recauda fondos. No cobra comisiones.</p>
+      <p class="fraude-footer">Reporta fraudes: Policía (123) | Fiscalía (122)</p>
+    </div>
+  </footer>
+
+  <script src="js/datos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const ongs = window.terremotoColombia.ongs || [];
+      const nacionales = document.getElementById('ongs-nacionales');
+      const internacionales = document.getElementById('ongs-internacionales');
+      const onu = document.getElementById('ongs-onu');
+      const fuentes = document.getElementById('fuentes-ongs');
+
+      ongs.forEach(function(ong) {
+        const card = document.createElement('div');
+        card.className = 'punto-atencion';
+
+        let html = '<h3>' + ong.nombre + '</h3>';
+        html += '<p class="tipo-badge">' + ong.tipo + '</p>';
+        html += '<p>' + ong.descripcion + '</p>';
+
+        if (ong.telefono) {
+          html += '<p>Teléfono: <a href="tel:' + ong.telefono + '">' + ong.telefono + '</a></p>';
+        }
+
+        if (ong.comoAyudar) {
+          html += '<p class="como-ayudar"><strong>Cómo ayudar:</strong> ' + ong.comoAyudar + '</p>';
+        }
+
+        if (ong.url) {
+          html += '<p><a href="' + ong.url + '" target="_blank" class="enlace-externo">Sitio web oficial ↗</a></p>';
+        }
+
+        card.innerHTML = html;
+
+        if (ong.tipo === 'Nacional') {
+          nacionales.appendChild(card);
+        } else if (ong.tipo.includes('ONU')) {
+          onu.appendChild(card);
+        } else {
+          internacionales.appendChild(card);
+        }
+      });
+
+      const fuentesData = [
+        { nombre: "Direct Relief", url: "https://www.directrelief.org/emergency/colombia-earthquake-2026/" },
+        { nombre: "Catholic Relief Services", url: "https://www.crs.org" },
+        { nombre: "World Food Programme Colombia", url: "https://www.wfp.org/es/colombia" },
+        { nombre: "UNICEF Colombia", url: "https://www.unicef.org/colombia" },
+        { nombre: "OIM Colombia", url: "https://www.iom.int/es/colombia" },
+        { nombre: "Colombia Hub - Organizaciones verificadas", url: "https://colombiahub.org/terremoto-colombia-2026-como-ayudar/" }
+      ];
+
+      fuentesData.forEach(function(fuente) {
+        const p = document.createElement('p');
+        p.innerHTML = '<a href="' + fuente.url + '" target="_blank" class="enlace-externo">' + fuente.nombre + ' ↗</a>';
+        fuentes.appendChild(p);
+      });
+    });
+  </script>
+</body>
+</html>

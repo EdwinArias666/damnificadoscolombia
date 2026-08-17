@@ -1,9 +1,10 @@
-var CACHE_NAME = "ayudas-terremoto-v1";
+var CACHE_NAME = "ayudas-terremoto-v2";
 var urlsToCache = [
   "/",
   "/index.html",
   "/guia.html",
   "/emergencia.html",
+  "/ongs.html",
   "/css/estilo.css",
   "/js/datos.js",
   "/js/app.js",

@@ -497,6 +497,113 @@ const DATOS = {
     "La información oficial solo viene de la UNGRD, Alcaldías, Gobernaciones o entidades reconocidas."
   ],
 
+  ongs: [
+    {
+      nombre: "Cruz Roja Colombiana",
+      tipo: "Nacional",
+      descripcion: "Equipos de búsqueda y rescate, asistencia humanitaria, kits de emergencia, atención médica de campo.",
+      url: "https://www.cruzrojacolombiana.org",
+      telefono: "132",
+      comoAyudar: "Acude a los puntos de acopio habilitados o llama a la línea 132."
+    },
+    {
+      nombre: "Defensa Civil Colombiana",
+      tipo: "Nacional",
+      descripcion: "Rescate en escombros, atención de emergencias, distribución de ayuda humanitaria.",
+      url: "https://www.defensacivil.gov.co",
+      telefono: "144",
+      comoAyudar: "Llama a la línea 144 o acude a los puntos de atención de tu municipio."
+    },
+    {
+      nombre: "Direct Relief",
+      tipo: "Internacional",
+      descripcion: "Ayuda médica: medicamentos, suministros quirúrgicos, equipamiento para hospitales afectados.",
+      url: "https://www.directrelief.org/emergency/colombia-earthquake-2026/",
+      telefono: "",
+      comoAyudar: "Donaciones vía su portal web. Trabaja con hospitales y brigadas médicas locales."
+    },
+    {
+      nombre: "Catholic Relief Services (CRS)",
+      tipo: "Internacional",
+      descripcion: "Refugio temporal, alimentos, agua potable, protección a familias afectadas.",
+      url: "https://www.crs.org",
+      telefono: "",
+      comoAyudar: "Donaciones vía su portal web. Asistente principal de USAID en Colombia."
+    },
+    {
+      nombre: "World Food Programme (PMA)",
+      tipo: "Internacional - ONU",
+      descripcion: "Distribución de alimentos, apoyo logístico, asistencia alimentaria de emergencia.",
+      url: "https://www.wfp.org/es/colombia",
+      telefono: "",
+      comoAyudar: "Coordina con el gobierno colombiano. Donaciones vía wfp.org."
+    },
+    {
+      nombre: "OIM - Organización Internacional para las Migraciones",
+      tipo: "Internacional - ONU",
+      descripcion: "Asistencia a personas desplazadas, refugio temporal, protección a migrantes afectados.",
+      url: "https://www.iom.int/es/colombia",
+      telefono: "",
+      comoAyudar: "Donaciones vía iom.int. Asistencia especializada en movilidad y refugio."
+    },
+    {
+      nombre: "UNICEF Colombia",
+      tipo: "Internacional - ONU",
+      descripcion: "Protección a niños, niñas y adolescentes, educación de emergencia, agua y saneamiento.",
+      url: "https://www.unicef.org/colombia",
+      telefono: "",
+      comoAyudar: "Donaciones vía unicef.org. Enfoque en protección infantil."
+    },
+    {
+      nombre: "World Vision",
+      tipo: "Internacional",
+      descripcion: "Ayuda humanitaria a niños y familias, agua potable, salud, educación de emergencia.",
+      url: "https://www.worldvision.org",
+      telefono: "",
+      comoAyudar: "Donaciones vía worldvision.org. Presencia en zonas rurales."
+    },
+    {
+      nombre: "Convoy of Hope",
+      tipo: "Internacional",
+      descripcion: "Respuesta ante desastres, distribución de alimentos,kits de higiene, apoyo comunitario.",
+      url: "https://convoyofhope.org",
+      telefono: "",
+      comoAyudar: "Donaciones vía convoyofhope.org. Distribuye ayuda en campo."
+    },
+    {
+      nombre: "Banco de Alimentos de Bogotá",
+      tipo: "Nacional",
+      descripcion: "Recolección y distribución de alimentos para familias afectadas.",
+      url: "https://www.bancodealimentos.org.co",
+      telefono: "",
+      comoAyudar: "Llave Bre-B: 0091677852. Dirección: Calle 19A # 32-50, Bogotá."
+    },
+    {
+      nombre: "Patrulla Aérea Civil Colombiana (PAC)",
+      tipo: "Nacional",
+      descripcion: "Transporte aéreo humanitario de médicos, medicamentos y suministros a zonas de difícil acceso.",
+      url: "https://www.pac.gov.co",
+      telefono: "",
+      comoAyudar: "Donaciones vía Direct Relief que financia sus operaciones."
+    },
+    {
+      nombre: "UNFPA Colombia",
+      tipo: "Internacional - ONU",
+      descripcion: "Atención a mujeres embarazadas, prevención de violencia de género, salud sexual y reproductiva.",
+      url: "https://colombia.unfpa.org",
+      telefono: "",
+      comoAyudar: "Donaciones vía unfpa.org. Kits de salud materna."
+    },
+    {
+      nombre: "CICR - Comité Internacional de la Cruz Roja",
+      tipo: "Internacional",
+      descripcion: "Evaluación de necesidades humanitarias, apoyo en zonas de conflicto armado afectadas.",
+      url: "https://www.icrc.org/es/colombia",
+      telefono: "",
+      comoAyudar: "Donaciones vía icrc.org. Trabajo coordinado con Cruz Roja Colombiana."
+    }
+  ],
+
   fuentesOficiales: [
     { nombre: "UNGRD - Unidad Nacional para la Gestión del Riesgo", url: "https://portal.gestiondelriesgo.gov.co" },
     { nombre: "Registro Único de Damnificados (RUD)", url: "https://rud.gestiondelriesgo.gov.co" },
@@ -505,6 +612,12 @@ const DATOS = {
     { nombre: "Defensa Civil Colombia", url: "https://www.defensacivil.gov.co" },
     { nombre: "Ministerio de Salud", url: "https://www.minsalud.gov.co" },
     { nombre: "DIAN - Información tributaria", url: "https://www.dian.gov.co" },
-    { nombre: "OPS/OMS Colombia - Informes de situación", url: "https://www.paho.org/es/colombia" }
+    { nombre: "OPS/OMS Colombia - Informes de situación", url: "https://www.paho.org/es/colombia" },
+    { nombre: "Direct Relief - Ayuda médica", url: "https://www.directrelief.org/emergency/colombia-earthquake-2026/" },
+    { nombre: "Catholic Relief Services", url: "https://www.crs.org" },
+    { nombre: "World Food Programme Colombia", url: "https://www.wfp.org/es/colombia" },
+    { nombre: "UNICEF Colombia", url: "https://www.unicef.org/colombia" },
+    { nombre: "OIM Colombia", url: "https://www.iom.int/es/colombia" },
+    { nombre: "Colombia Hub - Organizaciones verificadas", url: "https://colombiahub.org/terremoto-colombia-2026-como-ayudar/" }
   ]
 };
