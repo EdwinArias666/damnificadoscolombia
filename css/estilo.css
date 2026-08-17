@@ -22,9 +22,9 @@ a:hover{text-decoration:underline}
 .banner-seguridad{background:var(--rojo);color:var(--blanco);padding:10px 0;text-align:center;font-size:.8rem;font-weight:600;position:sticky;top:0;z-index:100;line-height:1.4}
 .banner-seguridad p{margin:0}
 
-.nav{background:var(--blanco);border-bottom:1px solid var(--gris-200);padding:12px 0;position:sticky;top:38px;z-index:99}
+.nav{background:var(--blanco);border-bottom:1px solid var(--gris-200);padding:12px 0;overflow:hidden}
 .nav-inner{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.nav-logo{font-weight:700;font-size:.95rem;color:var(--gris-900);white-space:nowrap}
+.nav-logo{font-weight:700;font-size:.95rem;color:var(--gris-900);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex-shrink:1}
 .nav-logo:hover{text-decoration:none}
 .nav-enlaces{display:flex;gap:12px;flex-shrink:0}
 .nav-enlaces a{color:var(--gris-700);font-size:.85rem;font-weight:500;padding:8px 6px;min-height:var(--tap);display:flex;align-items:center}
@@ -187,7 +187,6 @@ a:hover{text-decoration:underline}
   .seccion{padding:56px 0}
   .contenedor{padding:0 40px}
   .banner-seguridad{font-size:.85rem}
-  .nav{top:44px}
   .nav-logo{font-size:1.05rem}
 }
 
