@@ -20,7 +20,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(602) 321-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -37,7 +37,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(604) 671-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -54,7 +54,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(606) 886-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -71,7 +71,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(606) 335-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "112"
@@ -88,7 +88,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(606) 749-0000",
-        bombers: "(606) 745-4110",
+        bomberos: "(606) 745-4110",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "112"
@@ -105,7 +105,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(602) 824-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -122,7 +122,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(604) 381-0000",
-        bombers: "(604) 285-3220",
+        bomberos: "(604) 285-3220",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -139,7 +139,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(601) 381-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -156,7 +156,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(608) 271-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -173,7 +173,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(608) 871-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "(608) 871-3008",
         defensaCivil: "144",
         policia: "123"
@@ -190,7 +190,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(602) 723-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -207,7 +207,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(607) 577-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -224,7 +224,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(607) 644-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -241,7 +241,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(605) 568-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
@@ -258,7 +258,7 @@ const DATOS = {
       ],
       contactos: {
         lineaEmergencia: "(608) 661-0000",
-        bombers: "119",
+        bomberos: "119",
         cruzRoja: "132",
         defensaCivil: "144",
         policia: "123"
