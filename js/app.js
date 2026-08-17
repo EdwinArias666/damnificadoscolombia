@@ -346,6 +346,7 @@
       html += '<div class="contacto-card"><div class="contacto-info"><h3>Línea de emergencia</h3><p>Atención 24 horas</p></div><div class="contacto-numero">' + depto.contactos.lineaEmergencia + '</div></div>';
       html += '<div class="contacto-card"><div class="contacto-info"><h3>Cuerpo de Bomberos</h3><p>Evaluación técnica de viviendas</p></div><div class="contacto-numero">' + depto.contactos.bomberos + '</div></div>';
       html += '<div class="contacto-card"><div class="contacto-info"><h3>Cruz Roja</h3><p>Ayuda humanitaria</p></div><div class="contacto-numero">' + depto.contactos.cruzRoja + '</div></div>';
+      html += '<div class="contacto-card"><div class="contacto-info"><h3>Defensa Civil</h3><p>Rescate y emergencias</p></div><div class="contacto-numero">' + depto.contactos.defensaCivil + '</div></div>';
       html += '<div class="contacto-card"><div class="contacto-info"><h3>Policía Nacional</h3><p>Emergencias generales</p></div><div class="contacto-numero">' + depto.contactos.policia + '</div></div>';
       html += "</div>";
     } else {
