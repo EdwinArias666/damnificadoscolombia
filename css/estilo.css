@@ -68,10 +68,8 @@ a:hover{text-decoration:underline}
 .radio-label{display:flex;align-items:center;gap:8px;cursor:pointer;padding:12px 16px;border:1px solid var(--gris-300);border-radius:var(--radio);font-size:.9rem;transition:all .15s;min-height:var(--tap);flex:1;min-width:140px;-webkit-user-select:none;user-select:none}
 .radio-label:active{transform:scale(.98)}
 .radio-label:hover{border-color:var(--rojo);background:var(--rojo-claro)}
-.radio-label input{position:absolute;opacity:0;width:0;height:0}
-.radio-label input:checked+.radio-custom{background:var(--rojo);border-color:var(--rojo)}
-.radio-label input:checked+.radio-custom::after{content:"✓";color:var(--blanco);font-size:.75rem;display:flex;justify-content:center;align-items:center}
-.radio-custom{width:20px;height:20px;border:2px solid var(--gris-300);border-radius:50%;flex-shrink:0;transition:all .15s}
+.radio-label input[type="radio"]{width:20px;height:20px;margin:0;accent-color:var(--rojo);cursor:pointer;flex-shrink:0}
+.radio-label input:checked{accent-color:var(--rojo)}
 
 .checkbox-grupo{display:grid;gap:8px}
 .checkbox-label{display:flex;align-items:flex-start;gap:10px;cursor:pointer;padding:14px 12px;border:1px solid var(--gris-200);border-radius:var(--radio);transition:all .15s;min-height:var(--tap);-webkit-user-select:none;user-select:none}

@@ -142,6 +142,30 @@
       populateMunicipios(this.value);
     });
 
+    // Radio button visual feedback
+    var radioLabels = form.querySelectorAll(".radio-label");
+    for (var r = 0; r < radioLabels.length; r++) {
+      (function(label) {
+        var input = label.querySelector('input[type="radio"]');
+        if (!input) return;
+        input.addEventListener("change", function() {
+          for (var j = 0; j < radioLabels.length; j++) {
+            radioLabels[j].style.borderColor = "";
+            radioLabels[j].style.background = "";
+          }
+          if (input.checked) {
+            label.style.borderColor = "#b91c1c";
+            label.style.background = "#fecaca";
+          }
+        });
+        // Initialize state
+        if (input.checked) {
+          label.style.borderColor = "#b91c1c";
+          label.style.background = "#fecaca";
+        }
+      })(radioLabels[r]);
+    }
+
     form.addEventListener("submit", function(e) {
       e.preventDefault();
       var deptoId = deptoSel.value;
