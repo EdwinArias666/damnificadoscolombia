@@ -102,6 +102,16 @@ a:hover{text-decoration:underline}
 .btn-llamar:hover{background:#14532d}
 .btn-web{background:var(--rojo);color:var(--blanco)}
 .btn-web:hover{background:var(--rojo-oscuro)}
+.ongs-grid{display:grid;gap:14px}
+.ong-card{background:var(--blanco);border:1px solid var(--gris-200);border-radius:var(--radio-lg);padding:18px;box-shadow:var(--sombra);transition:box-shadow .15s}
+.ong-card:hover{box-shadow:var(--sombra-md)}
+.ong-card-header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.ong-card-nombre{font-size:1rem;line-height:1.3;margin:0}
+.ong-badge{display:inline-block;padding:4px 10px;border-radius:20px;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.3px;white-space:nowrap;flex-shrink:0}
+.ong-badge{background:var(--rojo-claro);color:var(--rojo-oscuro)}
+.ong-card-desc{font-size:.85rem;color:var(--gris-500);line-height:1.5;margin-bottom:10px}
+.ong-card-ayuda{font-size:.83rem;color:var(--gris-700);line-height:1.5;margin-bottom:12px;padding:10px;background:var(--gris-50);border-radius:var(--radio);border-left:3px solid var(--verde)}
+.ong-card-botones{display:flex;gap:8px;flex-wrap:wrap}
 
 .timeline{position:relative;padding-left:32px}
 .timeline::before{content:"";position:absolute;left:11px;top:0;bottom:0;width:2px;background:var(--rojo)}
@@ -163,6 +173,7 @@ a:hover{text-decoration:underline}
   .alerta-grid{grid-template-columns:repeat(2,1fr)}
   .emergencia-grid{grid-template-columns:repeat(2,1fr)}
   .fuentes-grid{grid-template-columns:repeat(2,1fr)}
+  .ongs-grid{grid-template-columns:repeat(2,1fr)}
   .hero h1{font-size:2rem}
   .seccion h2{font-size:1.4rem}
   .formulario{padding:28px}

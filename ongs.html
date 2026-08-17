@@ -20,108 +20,149 @@
   <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>ONGs - Ayuda Humanitaria</h1>
-      <p class="subtitulo">Organizaciones que brindan ayuda gratuita</p>
+  <div class="banner-seguridad">
+    <p>Si alguien te pide dinero por una ayuda, es una estafa. REPÓRTALO: Policía (123) | Fiscalía (122)</p>
+  </div>
+
+  <nav class="nav" aria-label="Navegación principal">
+    <div class="contenedor nav-inner">
+      <a href="index.html" class="nav-logo">🏛️ Ayudas Terremoto COL 2026</a>
+      <div class="nav-enlaces">
+        <a href="guia.html">Guía RUD</a>
+        <a href="emergencia.html">Emergencia</a>
+        <a href="ongs.html"><strong>ONGs</strong></a>
+      </div>
     </div>
-    <nav class="nav-principal">
-      <a href="index.html">Inicio</a>
-      <a href="guia.html">Guía RUD</a>
-      <a href="emergencia.html">Emergencia</a>
-      <a href="ongs.html" class="activo">ONGs</a>
-    </nav>
-  </header>
+  </nav>
 
-  <main class="container">
-    <div class="aviso-grave">
-      <p><strong>⚠ IMPORTANTE:</strong> Las ONGs no cobran por sus servicios. Si alguien te pide dinero en nombre de estas organizaciones, es una estafa. REPÓRTALO.</p>
-    </div>
-
-    <section class="seccion-info">
-      <h2>Nacionales</h2>
-      <div id="ongs-nacionales"></div>
+  <main>
+    <section class="hero" style="padding:40px 0 32px">
+      <div class="contenedor">
+        <p class="hero-fecha">Organizaciones humanitarias verificadas</p>
+        <h1>ONGs que brindan ayuda gratuita</h1>
+        <p class="hero-sub">Solo dona a organizaciones reconocidas. Ninguna cobra por sus servicios.</p>
+      </div>
     </section>
 
-    <section class="seccion-info">
-      <h2>Internacionales</h2>
-      <div id="ongs-internacionales"></div>
+    <section class="seccion">
+      <div class="contenedor">
+        <h2>Nacionales</h2>
+        <p class="seccion-desc">Organizaciones colombianas con presencia en las zonas afectadas.</p>
+        <div class="ongs-grid" id="ongs-nacionales"></div>
+      </div>
     </section>
 
-    <section class="seccion-info">
-      <h2>Organizaciones de la ONU</h2>
-      <div id="ongs-onu"></div>
+    <section class="seccion seccion-oscura">
+      <div class="contenedor">
+        <h2>Internacionales</h2>
+        <p class="seccion-desc">Organizaciones de ayuda humanitaria a nivel mundial.</p>
+        <div class="ongs-grid" id="ongs-internacionales"></div>
+      </div>
     </section>
 
-    <section class="seccion-info">
-      <h2>¿Cómo ayudar?</h2>
-      <ul class="lista-ayuda">
-        <li><strong>Donaciones:</strong> Enviar dinero directamente a las cuentas oficiales de cada ONG.</li>
-        <li><strong>Voluntariado:</strong> Registrarse en las páginas oficiales de las organizaciones.</li>
-        <li><strong>Difusión:</strong> Compartir información verificada por fuentes oficiales.</li>
-        <li><strong>Acopio:</strong> Llevar alimentos no perecederos y agua a los puntos de acopio habilitados.</li>
-      </ul>
+    <section class="seccion">
+      <div class="contenedor">
+        <h2>Organizaciones de la ONU</h2>
+        <p class="seccion-desc">Agencias de las Naciones Unidas con operaciones en Colombia.</p>
+        <div class="ongs-grid" id="ongs-onu"></div>
+      </div>
     </section>
 
-    <section class="seccion-info">
-      <h2>Fuentes verificadas</h2>
-      <div id="fuentes-ongs"></div>
+    <section class="seccion seccion-oscura">
+      <div class="contenedor">
+        <h2>¿Cómo ayudar?</h2>
+        <div class="alerta-alerta" style="background:var(--verde-claro);border-color:var(--verde)">
+          <div class="alerta-grid">
+            <div class="alerta-item alerta-si"><span>💰</span> <strong>Donaciones:</strong> Enviar dinero directamente a las cuentas oficiales de cada ONG.</div>
+            <div class="alerta-item alerta-si"><span>🤝</span> <strong>Voluntariado:</strong> Registrarse en las páginas oficiales de las organizaciones.</div>
+            <div class="alerta-item alerta-si"><span>📢</span> <strong>Difusión:</strong> Compartir información verificada por fuentes oficiales.</div>
+            <div class="alerta-item alerta-si"><span>📦</span> <strong>Acopio:</strong> Llevar alimentos no perecederos y agua a los puntos de acopio habilitados.</div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <div class="aviso-grave">
-      <p><strong>Recuerda:</strong> Solo dona a organizaciones reconocidas y verificadas. Nunca des dinero en efectivo a particulares.</p>
-    </div>
+    <section class="seccion">
+      <div class="contenedor">
+        <h2>Fuentes verificadas</h2>
+        <p class="seccion-desc">Toda la información de estas organizaciones proviene de fuentes oficiales.</p>
+        <div class="fuentes-grid" id="fuentes-ongs"></div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-alerta">
+      <div class="contenedor">
+        <div class="alerta-alerta">
+          <h2>⚠️ Protección contra estafas</h2>
+          <div class="alerta-grid">
+            <div class="alerta-item alerta-no"><span>🚫</span> Las ONGs legítimas NUNCA cobran por sus servicios.</div>
+            <div class="alerta-item alerta-no"><span>🚫</span> No des dinero en efectivo a particulares.</div>
+            <div class="alerta-item alerta-no"><span>🚫</span> No compartas datos bancarios por teléfono o redes sociales.</div>
+            <div class="alerta-item alerta-si"><span>✅</span> Solo dona a través de los sitios web oficiales de cada organización.</div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>Fuente oficial: <a href="https://portal.gestiondelriesgo.gov.co" target="_blank">UNGRD</a> | <a href="https://www.cruzrojacolombiana.org" target="_blank">Cruz Roja</a> | <a href="https://www.defensacivil.gov.co" target="_blank">Defensa Civil</a></p>
-      <p>Página sin fines de lucro. No recauda fondos. No cobra comisiones.</p>
-      <p class="fraude-footer">Reporta fraudes: Policía (123) | Fiscalía (122)</p>
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-advertencia">
+        <strong>AVISO IMPORTANTE:</strong> Esta aplicación es un recurso informativo. NO es una entidad gubernamental.
+        NO recauda fondos, NO cobra trámites, NO solicita dinero.
+        Si alguien se hace pasar por esta aplicación para solicitar dinero, repórtalo inmediatamente a la Policía (123) o la Fiscalía (122).
+      </div>
+      <div class="footer-info">
+        <p>Información verificada de fuentes oficiales: UNGRD, Cruz Roja, Defensa Civil, Ministerio de Vivienda.</p>
+        <p>Última actualización: 17 de agosto de 2026</p>
+      </div>
     </div>
   </footer>
 
   <script src="js/datos.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const ongs = window.terremotoColombia.ongs || [];
-      const nacionales = document.getElementById('ongs-nacionales');
-      const internacionales = document.getElementById('ongs-internacionales');
-      const onu = document.getElementById('ongs-onu');
-      const fuentes = document.getElementById('fuentes-ongs');
+      var ongs = DATOS.ongs || [];
+      var nacionales = document.getElementById('ongs-nacionales');
+      var internacionales = document.getElementById('ongs-internacionales');
+      var onu = document.getElementById('ongs-onu');
+      var fuentes = document.getElementById('fuentes-ongs');
 
       ongs.forEach(function(ong) {
-        const card = document.createElement('div');
-        card.className = 'punto-atencion';
+        var card = document.createElement('div');
+        card.className = 'ong-card';
 
-        let html = '<h3>' + ong.nombre + '</h3>';
-        html += '<p class="tipo-badge">' + ong.tipo + '</p>';
-        html += '<p>' + ong.descripcion + '</p>';
-
-        if (ong.telefono) {
-          html += '<p>Teléfono: <a href="tel:' + ong.telefono + '">' + ong.telefono + '</a></p>';
-        }
+        var html = '<div class="ong-card-header">';
+        html += '<h3 class="ong-card-nombre">' + ong.nombre + '</h3>';
+        html += '<span class="ong-badge">' + ong.tipo + '</span>';
+        html += '</div>';
+        html += '<p class="ong-card-desc">' + ong.descripcion + '</p>';
 
         if (ong.comoAyudar) {
-          html += '<p class="como-ayudar"><strong>Cómo ayudar:</strong> ' + ong.comoAyudar + '</p>';
+          html += '<p class="ong-card-ayuda"><strong>Cómo ayudar:</strong> ' + ong.comoAyudar + '</p>';
         }
 
-        if (ong.url) {
-          html += '<p><a href="' + ong.url + '" target="_blank" class="enlace-externo">Sitio web oficial ↗</a></p>';
+        html += '<div class="ong-card-botones">';
+        if (ong.telefono) {
+          html += '<a href="tel:' + ong.telefono + '" class="btn-ayuda btn-llamar">📞 Llamar: ' + ong.telefono + '</a>';
         }
+        if (ong.url) {
+          html += '<a href="' + ong.url + '" target="_blank" rel="noopener" class="btn-ayuda btn-web">🌐 Sitio oficial ↗</a>';
+        }
+        html += '</div>';
 
         card.innerHTML = html;
 
         if (ong.tipo === 'Nacional') {
           nacionales.appendChild(card);
-        } else if (ong.tipo.includes('ONU')) {
+        } else if (ong.tipo.indexOf('ONU') !== -1) {
           onu.appendChild(card);
         } else {
           internacionales.appendChild(card);
         }
       });
 
-      const fuentesData = [
+      var fuentesData = [
         { nombre: "Direct Relief", url: "https://www.directrelief.org/emergency/colombia-earthquake-2026/" },
         { nombre: "Catholic Relief Services", url: "https://www.crs.org" },
         { nombre: "World Food Programme Colombia", url: "https://www.wfp.org/es/colombia" },
@@ -131,9 +172,10 @@
       ];
 
       fuentesData.forEach(function(fuente) {
-        const p = document.createElement('p');
-        p.innerHTML = '<a href="' + fuente.url + '" target="_blank" class="enlace-externo">' + fuente.nombre + ' ↗</a>';
-        fuentes.appendChild(p);
+        var item = document.createElement('div');
+        item.className = 'fuente-item';
+        item.innerHTML = '<strong>' + fuente.nombre + '</strong><a href="' + fuente.url + '" target="_blank" rel="noopener">' + fuente.url + '</a>';
+        fuentes.appendChild(item);
       });
     });
   </script>
