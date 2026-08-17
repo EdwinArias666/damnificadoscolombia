@@ -310,32 +310,6 @@
     }
     html += "</div>";
 
-    // Pasos a seguir
-    html += '<div class="resultado-seccion">';
-    html += "<h2>Pasos a seguir para recibir ayuda</h2>";
-
-    DATOS.pasosRUD.forEach(function(paso) {
-      html += '<div class="guia-paso">';
-      html += '<div class="guia-paso-header">';
-      html += '<div class="guia-paso-num">' + paso.paso + "</div>";
-      html += "<h3>" + paso.titulo + "</h3>";
-      html += "</div>";
-      html += "<p>" + paso.descripcion + "</p>";
-      html += "<ul>";
-      paso.acciones.forEach(function(a) { html += "<li>" + a + "</li>"; });
-      html += "</ul>";
-      if (paso.documentos.length > 0) {
-        html += '<div class="tarjeta-detalle" style="margin-top:8px"><strong>Documentos:</strong><ul style="margin:4px 0 0 16px">';
-        paso.documentos.forEach(function(d) { html += "<li>" + d + "</li>"; });
-        html += "</ul></div>";
-      }
-      html += '<div class="guia-meta">';
-      html += "<span>⏱️ " + paso.tiempoEstimado + "</span>";
-      html += "<span>📍 " + paso.dondeIr + "</span>";
-      html += "</div></div>";
-    });
-    html += "</div>";
-
     // Contactos locales
     html += '<div class="resultado-seccion">';
     html += "<h2>Contactos de emergencia en tu zona</h2>";
@@ -376,14 +350,11 @@
     });
     html += "</div></div>";
 
-    // Fuentes
+    // Links a guías
     html += '<div class="resultado-seccion">';
-    html += "<h2>Fuentes oficiales de esta información</h2>";
-    html += '<div class="fuentes-grid">';
-    DATOS.fuentesOficiales.forEach(function(f) {
-      html += '<div class="fuente-item"><strong>' + f.nombre + '</strong><a href="' + f.url + '" target="_blank" rel="noopener">' + f.url + "</a></div>";
-    });
-    html += "</div></div>";
+    html += '<p><a href="guia.html" class="btn-volver" style="margin-right:8px">📖 Guía paso a paso para registrarte en el RUD</a>';
+    html += '<a href="ongs.html" class="btn-volver">🤝 Organizaciones que ayudan</a></p>';
+    html += "</div>";
 
     html += "</div></div>";
 
