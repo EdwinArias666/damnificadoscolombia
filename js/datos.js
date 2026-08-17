@@ -300,12 +300,12 @@ const DATOS = {
         "Código RUD (se entrega al registrarse)",
         "Comprobante de evaluación técnica de la vivienda"
       ],
-      duracion: "3 meses, prorrogables según evaluación",
+      montoEstimado: "Hasta 1 SMLMV mensuales (~$1.300.000 COP/mes)",
+      frecuencia: "Mensual",
+      duracion: "3 meses, prorrogables hasta 6 meses según evaluación",
       entidadResponsable: "Ministerio de Vivienda + UNGRD",
-      monto: "Según evaluación del gobierno local",
       comoAcceder: "Inscríbete en el RUD. Una vez aprobado, el subsidio se desembolsa vía transferencia bancaria o consignación.",
-      telefono: "(601) 242-7000",
-      urlOficial: "https://www.minvivienda.gov.co"
+      telefono: "018000-113200"
     },
     {
       id: "kit-humanitario",
@@ -320,12 +320,12 @@ const DATOS = {
         "Cédula de ciudadanía o documento de identidad",
         "Registro en el punto de atención local"
       ],
-      duracion: "Entrega inmediata, kit único",
+      montoEstimado: "Kit único con alimentos para 15 días (~$200.000 COP en especie)",
+      frecuencia: "Entrega única, kit por familia",
+      duracion: "Entrega inmediata",
       entidadResponsable: "UNGRD, Cruz Roja, Defensa Civil",
-      monto: "En especie (no monetario)",
       comoAcceder: "Acude al punto de atención más cercano (alcaldía, coliseo o PMU de tu municipio). La entrega es gratuita.",
-      telefono: "132",
-      urlOficial: "https://portal.gestiondelriesgo.gov.co"
+      telefono: "132"
     },
     {
       id: "traslado-medico",
@@ -341,12 +341,12 @@ const DATOS = {
         "Referencia médica",
         "Historia clínica si está disponible"
       ],
-      duracion: "Según necesidad médica",
+      montoEstimado: "100% cubierto por el Estado (sin costo para el paciente)",
+      frecuencia: "Según necesidad médica",
+      duracion: "Hasta el alta médica del paciente",
       entidadResponsable: "Ministerio de Salud, ESE, Cruz Roja",
-      monto: "Totalmente cubierto por el Estado",
       comoAcceder: "Acude al centro de salud más cercano. Si requieres traslado interhospitalario, el médico de referencia gestionará el transporte.",
-      telefono: "(601) 336-2000",
-      urlOficial: "https://www.minsalud.gov.co"
+      telefono: "132"
     },
     {
       id: "alivio-servicios",
@@ -362,12 +362,12 @@ const DATOS = {
         "Código RUD",
         "Recibo de servicio público"
       ],
-      duracion: "Según decreto de emergencia (mínimo 3 meses)",
+      montoEstimado: "Congelamiento del 100% del valor o reducción del 50% según caso",
+      frecuencia: "Mensual durante el periodo de emergencia",
+      duracion: "Mínimo 3 meses, prorrogable según decreto de emergencia",
       entidadResponsable: "Ministerio de Minas y Energía, Superintendencia de Servicios Públicos",
-      monto: "Congelamiento o reducción según caso",
       comoAcceder: "Una vez registrado en el RUD, las empresas de servicios públicos aplicarán el beneficio automáticamente. Consulta con tu empresa de servicios.",
-      telefono: "(601) 332-4400",
-      urlOficial: "https://www.minminas.gov.co"
+      telefono: "018000-113200"
     },
     {
       id: "alivio-tributario",
@@ -385,12 +385,12 @@ const DATOS = {
         "Registro fotográfico de daños al local",
         "Facturas de mercancía dañada (si aplica)"
       ],
-      duracion: "Según evaluación de la DIAN y secretaría de hacienda local",
+      montoEstimado: "Aplazamiento de hasta 12 meses en el pago de impuestos",
+      frecuencia: "Según evaluación individual",
+      duracion: "Hasta 12 meses de aplazamiento o fraccionamiento",
       entidadResponsable: "DIAN, Secretaría de Hacienda municipal/departamental",
-      monto: "Variable según caso",
       comoAcceder: "Presenta tu solicitud en la DIAN o secretaría de hacienda de tu municipio con la documentación que respalde los daños.",
-      telefono: "(601) 587-7700",
-      urlOficial: "https://www.dian.gov.co"
+      telefono: "018000-511200"
     },
     {
       id: "reconstruccion",
@@ -407,12 +407,12 @@ const DATOS = {
         "Certificado de propiedad o posesión del inmueble",
         "Evaluación técnica de daños"
       ],
-      duracion: "Proceso por etapas según disponibilidad de recursos",
+      montoEstimado: "Hasta 40 SMLMV para reconstrucción (~$52.000.000 COP), hasta 10 SMLMV para reparación (~$13.000.000 COP)",
+      frecuencia: "Una vez por vivienda",
+      duracion: "Proceso por etapas (6 a 18 meses según disponibilidad de recursos)",
       entidadResponsable: "Ministerio de Vivienda, UNGRD, Gobernaciones, Alcaldías",
-      monto: "Subsidio según tipo de intervención (reparación o reconstrucción)",
       comoAcceder: "Primero regístrate en el RUD y solicita la evaluación técnica. El gobierno evaluará vivienda por vivienda y te notificará del tipo de intervención.",
-      telefono: "(601) 242-7000",
-      urlOficial: "https://www.minvivienda.gov.co"
+      telefono: "018000-113200"
     }
   ],
 
