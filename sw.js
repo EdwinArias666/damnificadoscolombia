@@ -1,4 +1,4 @@
-var CACHE_NAME = "ayudas-terremoto-v2";
+var CACHE_NAME = "ayudas-terremoto-v3";
 var urlsToCache = [
   "/",
   "/index.html",
