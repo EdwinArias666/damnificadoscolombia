@@ -148,9 +148,10 @@
       var municipioVal = munSel.value;
       var tipoVivienda = form.querySelector('input[name="tipoVivienda"]:checked');
       var afectaciones = [];
-      form.querySelectorAll('input[name="afectacion"]:checked').forEach(function(cb) {
-        afectaciones.push(cb.value);
-      });
+      var checks = form.querySelectorAll('input[name="afectacion"]:checked');
+      for (var i = 0; i < checks.length; i++) {
+        afectaciones.push(checks[i].value);
+      }
 
       if (!deptoId || !municipioVal || !tipoVivienda || afectaciones.length === 0) {
         alert("Por favor completa todos los campos requeridos.");
@@ -296,7 +297,7 @@
     if (data.tipoVivienda === "rural") {
       html += '<div class="resultado-seccion">';
       html += '<div class="alerta-alerta" style="background:#fef3c7;border-color:#f59e0b">';
-      html += "<h2 style=" + "color:#92400e>Atención para zonas rurales</h2>";
+      html += '<h2 style="color:#92400e">Atención para zonas rurales</h2>';
       html += '<p style="color:#78350f">Si vives en zona rural y no puedes acudir a los puntos de atención, contacta a la Alcaldía de tu municipio para conocer los puntos de atención cercanos o la ruta de atención móvil.</p>';
       html += "</div></div>";
     }
