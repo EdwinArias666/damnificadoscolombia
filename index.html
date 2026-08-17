@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía oficial de ayudas gubernamentales para damnificados del terremoto de Colombia 2026. Información verificada de fuentes oficiales.">
+  <meta name="theme-color" content="#b91c1c">
+  <title>Ayudas Terremoto Colombia 2026 | Información Oficial</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="banner-seguridad" role="alert">
+    <div class="contenedor">
+      <p><strong>Esta aplicación NO recauda fondos ni solicita dinero.</strong> Si alguien te pide dinero, repórtalo: Policía 123 | Fiscalía 122</p>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Navegación principal">
+    <div class="contenedor nav-inner">
+      <a href="index.html" class="nav-logo">🏛️ Ayudas Terremoto COL 2026</a>
+      <div class="nav-enlaces">
+        <a href="guia.html">Guía RUD</a>
+        <a href="emergencia.html">Emergencia</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="contenedor">
+        <p class="hero-fecha">Terremoto 10 de agosto de 2026 | Magnitud 7.4 Mw | Epicentro: San José del Palmar, Chocó</p>
+        <h1>Encuentra las ayudas del gobierno<br>según tu situación</h1>
+        <p class="hero-sub">Información oficial de la UNGRD, Ministerio de Vivienda, Cruz Roja y Defensa Civil. 100% gratuita.</p>
+        <div class="hero-estadisticas">
+          <div class="estadistica">
+            <span class="estadistica-numero">15</span>
+            <span class="estadistica-label">Departamentos afectados</span>
+          </div>
+          <div class="estadistica">
+            <span class="estadistica-numero">426+</span>
+            <span class="estadistica-label">Municipios afectados</span>
+          </div>
+          <div class="estadistica">
+            <span class="estadistica-numero">102K+</span>
+            <span class="estadistica-label">Personas afectadas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="formulario">
+      <div class="contenedor">
+        <h2>¿Necesitas ayuda? Completa tus datos</h2>
+        <p class="seccion-desc">Ingresa tu información para recibir una guía personalizada con las ayudas a las que puedes optar.</p>
+
+        <form id="formUbicacion" class="formulario" autocomplete="off">
+          <div class="campo">
+            <label for="departamento">¿En qué departamento vives?</label>
+            <select id="departamento" name="departamento" required>
+              <option value="">Selecciona tu departamento...</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="municipio">¿En qué municipio o ciudad?</label>
+            <select id="municipio" name="municipio" required disabled>
+              <option value="">Primero selecciona un departamento...</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="tipoVivienda">Tipo de vivienda</label>
+            <div class="radio-grupo">
+              <label class="radio-label">
+                <input type="radio" name="tipoVivienda" value="urbana" required>
+                <span class="radio-custom"></span>
+                Urbana (ciudad)
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="tipoVivienda" value="rural">
+                <span class="radio-custom"></span>
+                Rural (vereda/campo)
+              </label>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label>¿Qué tipo de afectación tienes?</label>
+            <p class="campo-hint">Puedes seleccionar más de una opción</p>
+            <div class="checkbox-grupo" id="tipoAfectacion">
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="nombre">Tu nombre (opcional)</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej: María López">
+          </div>
+
+          <div class="campo">
+            <label for="telefono">Tu teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ej: 310 123 4567">
+          </div>
+
+          <button type="submit" class="boton-principal">
+            Ver mis ayudas disponibles
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="seccion seccion-oscura">
+      <div class="contenedor">
+        <h2>Ayudas disponibles</h2>
+        <div class="tarjetas-resumen" id="ayudasResumen">
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <h2>Pasos para registrarte como damnificado</h2>
+        <div class="timeline" id="pasosResumen">
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-alerta">
+      <div class="contenedor">
+        <div class="alerta-alerta">
+          <h2>Protege tus datos y tu dinero</h2>
+          <div class="alerta-grid">
+            <div class="alerta-item alerta-no">
+              <span>✗</span> Esta aplicación NO cobra por ningún trámite
+            </div>
+            <div class="alerta-item alerta-no">
+              <span>✗</span> Esta aplicación NO solicita datos bancarios
+            </div>
+            <div class="alerta-item alerta-no">
+              <span>✗</span> Esta aplicación NO envía enlaces de pago
+            </div>
+            <div class="alerta-item alerta-no">
+              <span>✗</span> Esta aplicación NO tiene gestores autorizados
+            </div>
+            <div class="alerta-item alerta-si">
+              <span>✓</span> Es información pública y gratuita
+            </div>
+            <div class="alerta-item alerta-si">
+              <span>✓</span> Los trámites se hacen SOLO en puntos oficiales
+            </div>
+            <div class="alerta-item alerta-si">
+              <span>✓</span> Si alguien te pide dinero, LLAMA a la Policía: 123
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <h2>Fuentes oficiales</h2>
+        <p class="seccion-desc">Toda la información de esta aplicación proviene de estas entidades verificadas:</p>
+        <div class="fuentes-grid" id="fuentesOficiales">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-advertencia">
+        <strong>AVISO IMPORTANTE:</strong> Esta aplicación es un recurso informativo. NO es una entidad gubernamental.
+        NO recauda fondos, NO cobra trámites, NO solicita dinero.
+        Si alguien se hace pasar por esta aplicación para solicitar dinero, repórtalo inmediatamente a la Policía (123) o la Fiscalía (122).
+      </div>
+      <div class="footer-info">
+        <p>Información verificada de fuentes oficiales: UNGRD, Cruz Roja, Defensa Civil, Ministerio de Vivienda.</p>
+        <p>Última actualización: 17 de agosto de 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/datos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
