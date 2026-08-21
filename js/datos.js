@@ -315,7 +315,7 @@ const DATOS = {
         "Código RUD (se entrega al registrarse)",
         "Comprobante de evaluación técnica de la vivienda"
       ],
-      montoEstimado: "Varía según tu municipio. Ejemplos confirmados: Manizales $357.000/mes, Cali $600.000/mes, Pereira hasta $1.500.000/mes",
+      montoEstimado: "Varía según tu municipio. Ejemplos confirmados: Manizales $357.000/mes (apoyo parcial a la reubicación), Cali $600.000/mes, Pereira hasta $1.500.000/mes. Importante: este subsidio municipal es ACUMULABLE con la ayuda nacional de UNGRD para arriendos (fondo de $100.000 millones). No te conformes solo con el subsidio de tu alcaldía.",
       frecuencia: "Mensual",
       duracion: "1 a 3 meses según municipio y condición (arrendatario o propietario), prorrogables",
       entidadResponsable: "Ministerio de Vivienda + UNGRD",
