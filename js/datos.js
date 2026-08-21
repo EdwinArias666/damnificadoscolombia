@@ -315,9 +315,9 @@ const DATOS = {
         "Código RUD (se entrega al registrarse)",
         "Comprobante de evaluación técnica de la vivienda"
       ],
-      montoEstimado: "Hasta 1 SMLMV mensuales (~$1.300.000 COP/mes)",
+      montoEstimado: "Varía según tu municipio. Ejemplos confirmados: Manizales $357.000/mes, Cali $600.000/mes, Pereira hasta $1.500.000/mes",
       frecuencia: "Mensual",
-      duracion: "3 meses, prorrogables hasta 6 meses según evaluación",
+      duracion: "1 a 3 meses según municipio y condición (arrendatario o propietario), prorrogables",
       entidadResponsable: "Ministerio de Vivienda + UNGRD",
       comoAcceder: "Inscríbete en el RUD. Una vez aprobado, el subsidio se desembolsa vía transferencia bancaria o consignación.",
       telefono: "018000-113200"
