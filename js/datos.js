@@ -319,7 +319,27 @@ const DATOS = {
       frecuencia: "Mensual",
       duracion: "1 a 3 meses según municipio y condición (arrendatario o propietario), prorrogables",
       entidadResponsable: "Ministerio de Vivienda + UNGRD",
-      comoAcceder: "Inscríbete en el RUD. Una vez aprobado, el subsidio se desembolsa vía transferencia bancaria o consignación.",
+      comoAcceder: "Inscríbete en el RUD. Una vez aprobado, el subsidio se desembolsa vía redes autorizadas: Efecty, SuperGIROS o Banco Agrario. Consulta tu cédula en el portal de la UNGRD (sección Ayudas Económicas).",
+      telefono: "018000-113200"
+    },
+    {
+      id: "auxilios-vida",
+      nombre: "Auxilios de Vida (Ayuda Monetaria Nacional)",
+      descripcion: "Auxilio económico directo del Gobierno Nacional para las familias que no pueden regresar a su vivienda por daños del terremoto.",
+      aplicaPara: ["vivienda-destruida", "vivienda-danada"],
+      requisitos: [
+        "Estar registrado y activo en el Registro Único de Damnificados (RUD)",
+        "Vivienda inhabitable o con daño estructural verificado"
+      ],
+      documentos: [
+        "Cédula de ciudadanía",
+        "Estar activo en el RUD (no se requiere trámite adicional por ahora)"
+      ],
+      montoEstimado: "Monto único por familia (valor aún no confirmado oficialmente). El Gobierno busca entregarlo sin trámites adicionales",
+      frecuencia: "Entrega única",
+      duracion: "Las entregas comienzan entre el lunes 24 y martes 25 de agosto de 2026",
+      entidadResponsable: "Ministerio del Interior + UNGRD",
+      comoAcceder: "El desembolso será automático con los datos del RUD. Verifica periódicamente tu cédula en el portal de la UNGRD y mantén actualizados tus datos de contacto y bancarios en la alcaldía.",
       telefono: "018000-113200"
     },
     {
@@ -422,11 +442,11 @@ const DATOS = {
         "Certificado de propiedad o posesión del inmueble",
         "Evaluación técnica de daños"
       ],
-      montoEstimado: "Hasta 40 SMLMV para reconstrucción (~$52.000.000 COP), hasta 10 SMLMV para reparación (~$13.000.000 COP)",
+      montoEstimado: "Hasta 40 SMLMV para reconstrucción (~$52.000.000 COP), hasta 10 SMLMV para reparación (~$13.000.000 COP). El decreto de emergencia del 19 de agosto flexibilizó el Subsidio Familiar de Vivienda: ahora pueden recibirlo incluso familias que ya lo habían recibido antes, sin ahorro previo",
       frecuencia: "Una vez por vivienda",
-      duracion: "Proceso por etapas (6 a 18 meses según disponibilidad de recursos)",
+      duracion: "Fase 1 (agosto-septiembre 2026): atención inicial y autoconstrucción. Fase 2 (octubre 2026-marzo 2027): mejoramientos, arriendos y primeros subsidios de vivienda nueva",
       entidadResponsable: "Ministerio de Vivienda, UNGRD, Gobernaciones, Alcaldías",
-      comoAcceder: "Primero regístrate en el RUD y solicita la evaluación técnica. El gobierno evaluará vivienda por vivienda y te notificará del tipo de intervención.",
+      comoAcceder: "Primero regístrate en el RUD y solicita la evaluación técnica. El gobierno evaluará vivienda por vivienda y te notificará del tipo de intervención. El decreto también permite usar ayudas de compra para reparar tu vivienda y cubre el transporte de materiales en zonas con vías dañadas.",
       telefono: "018000-113200"
     }
   ],

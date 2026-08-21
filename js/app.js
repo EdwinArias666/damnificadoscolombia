@@ -115,6 +115,7 @@
   function getIconoAyuda(id) {
     var icons = {
       "subsidio-arriendo": "🏠",
+      "auxilios-vida": "💵",
       "kit-humanitario": "📦",
       "traslado-medico": "🚑",
       "alivio-servicios": "💡",
