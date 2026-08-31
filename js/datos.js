@@ -315,17 +315,17 @@ const DATOS = {
         "Código RUD (se entrega al registrarse)",
         "Comprobante de evaluación técnica de la vivienda"
       ],
-      montoEstimado: "Varía según tu municipio. Ejemplos confirmados: Manizales $357.000/mes (apoyo parcial a la reubicación), Cali $600.000/mes, Pereira hasta $1.500.000/mes. Importante: este subsidio municipal es ACUMULABLE con la ayuda nacional de UNGRD para arriendos (fondo de $100.000 millones). No te conformes solo con el subsidio de tu alcaldía.",
-      frecuencia: "Mensual",
-      duracion: "1 a 3 meses según municipio y condición (arrendatario o propietario), prorrogables",
+      montoEstimado: "$875.452/mes durante 3 meses (total $2.626.356 por familia). Este es el subsidio nacional de la UNGRD. Además, hay subsidios municipales acumulables: Manizales $357.000/mes, Cali $600.000/mes, Pereira hasta $1.500.000/mes. En Buenaventura: $1.050.000/mes x 3 meses = $3.150.000 total.",
+      frecuencia: "Mensual, 3 pagos",
+      duracion: "3 meses (31.613 viviendas destruidas y 178.515 con daño según UNGRD agosto 26)",
       entidadResponsable: "Ministerio de Vivienda + UNGRD",
-      comoAcceder: "Inscríbete en el RUD. Una vez aprobado, el subsidio se desembolsa vía redes autorizadas: Efecty, SuperGIROS o Banco Agrario. Consulta tu cédula en el portal de la UNGRD (sección Ayudas Económicas).",
+      comoAcceder: "Inscríbete en el RUD. Las entregas vía Efecty, SuperGIROS o Banco Agrario. Consulta tu cédula en el portal de la UNGRD (sección Ayudas Económicas). Las entregas empezaron el 26 de agosto de 2026.",
       telefono: "018000-113200"
     },
     {
       id: "auxilios-vida",
-      nombre: "Auxilios de Vida (Ayuda Monetaria Nacional)",
-      descripcion: "Auxilio económico directo del Gobierno Nacional para las familias que no pueden regresar a su vivienda por daños del terremoto.",
+      nombre: "Auxilios de Vida / Subsidio Nacional de Arriendo UNGRD",
+      descripcion: "Auxilio económico del Gobierno Nacional (también llamado 'subsidio de arriendo UNGRD'). Monto confirmado: $875.452 mensuales durante 3 meses, total $2.626.356 por familia. Las entregas empezaron el 26 de agosto de 2026.",
       aplicaPara: ["vivienda-destruida", "vivienda-danada"],
       requisitos: [
         "Estar registrado y activo en el Registro Único de Damnificados (RUD)",
@@ -335,11 +335,11 @@ const DATOS = {
         "Cédula de ciudadanía",
         "Estar activo en el RUD (no se requiere trámite adicional por ahora)"
       ],
-      montoEstimado: "Monto único por familia (valor aún no confirmado oficialmente). El Gobierno busca entregarlo sin trámites adicionales",
-      frecuencia: "Entrega única",
-      duracion: "Las entregas comienzan entre el lunes 24 y martes 25 de agosto de 2026",
+      montoEstimado: "$875.452/mes x 3 meses = $2.626.356 total por familia (confirmado oficialmente agosto 26). Fondo total UNGRD: $100.000 millones. En Buenaventura: $1.050.000/mes x 3 meses",
+      frecuencia: "3 pagos mensuales",
+      duracion: "3 meses, empezó el 26 de agosto de 2026",
       entidadResponsable: "Ministerio del Interior + UNGRD",
-      comoAcceder: "El desembolso será automático con los datos del RUD. Verifica periódicamente tu cédula en el portal de la UNGRD y mantén actualizados tus datos de contacto y bancarios en la alcaldía.",
+      comoAcceder: "Desembolso automático vía UNGRD. Verifica tu cédula en el portal UNGRD (sección Ayudas Económicas). Medios de pago: Efecty, SuperGIROS o Banco Agrario.",
       telefono: "018000-113200"
     },
     {
@@ -447,6 +447,51 @@ const DATOS = {
       duracion: "Fase 1 (agosto-septiembre 2026): atención inicial y autoconstrucción. Fase 2 (octubre 2026-marzo 2027): mejoramientos, arriendos y primeros subsidios de vivienda nueva",
       entidadResponsable: "Ministerio de Vivienda, UNGRD, Gobernaciones, Alcaldías",
       comoAcceder: "Primero regístrate en el RUD y solicita la evaluación técnica. El gobierno evaluará vivienda por vivienda y te notificará del tipo de intervención. El decreto también permite usar ayudas de compra para reparar tu vivienda y cubre el transporte de materiales en zonas con vías dañadas.",
+      telefono: "018000-113200"
+    },
+    {
+      id: "credito-hipotecario",
+      nombre: "Crédito Hipotecario con Tasa Reducida",
+      descripcion: "Crédito hipotecario con tasa de interés del 8% anual para compra o reconstrucción de vivienda en zonas afectadas por el terremoto.",
+      aplicaPara: ["vivienda-destruida", "vivienda-danada"],
+      requisitos: [
+        "Estar registrado en el RUD",
+        "Demostrar ingresos suficientes para cubrir el crédito",
+        "No tener deudas morosas con entidades financieras"
+      ],
+      documentos: [
+        "Cédula de ciudadanía",
+        "Certificado de ingresos",
+        "Extractos bancarios (3 últimos meses)",
+        "Código RUD"
+      ],
+      montoEstimado: "Según capacidad de endeudamiento. Tasa del 8% anual fija (inferior al mercado habitual)",
+      frecuencia: "Desembolso único",
+      duracion: "Plazo según entidad financiera (hasta 20 años)",
+      entidadResponsable: "Banco Agrario, bancos privados, Decreto 1261 de 2026",
+      comoAcceder: "Acude al Banco Agrario o a cualquier banco adherido con tu código RUD y documentación. La tasa del 8% es obligatoria para créditos vinculados a la emergencia.",
+      telefono: "018000-113200"
+    },
+    {
+      id: "kit-materiales",
+      nombre: "Kit de Materiales para Reparación",
+      descripcion: "Paquete de materiales de construcción (cal, cemento, varillas, tejas, etc.) para familias cuya vivienda sufrió daños reparables, más asesoría técnica para la rehabilitación.",
+      aplicaPara: ["vivienda-danada"],
+      requisitos: [
+        "Vivienda con daños menores o reparables (no destruida)",
+        "Estar registrado en el RUD",
+        "Evaluación técnica que confirme que la vivienda es reparable"
+      ],
+      documentos: [
+        "Cédula de ciudadanía",
+        "Código RUD",
+        "Evaluación técnica de daños"
+      ],
+      montoEstimado: "Kit en especie con valor según evaluación técnica. Entrega incluye asesoría y acompañamiento técnico",
+      frecuencia: "Entrega única",
+      duracion: "Fase 1: entrega inmediata de materiales. Fase 2 (oct 2026-mar 2027): acompañamiento técnico continuo",
+      entidadResponsable: "Ministerio de Vivienda, UNGRD, Alcaldías",
+      comoAcceder: "Regístrate en el RUD y solicita evaluación técnica de tu vivienda. Si el diagnóstico determina daño reparable, recibirás el kit y el acompañamiento técnico.",
       telefono: "018000-113200"
     }
   ],

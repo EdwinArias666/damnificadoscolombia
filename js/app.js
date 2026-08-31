@@ -120,7 +120,9 @@
       "traslado-medico": "🚑",
       "alivio-servicios": "💡",
       "alivio-tributario": "📋",
-      "reconstruccion": "🔨"
+      "reconstruccion": "🔨",
+      "credito-hipotecario": "🏦",
+      "kit-materiales": "🧱"
     };
     return icons[id] || "ℹ️";
   }
